@@ -1,18 +1,16 @@
+package tester;
 
-import org.languagetool.AnalyzedSentence;
-import org.languagetool.AnalyzedToken;
-import org.languagetool.AnalyzedTokenReadings;
 import org.languagetool.JLanguageTool;
 import org.languagetool.language.AmericanEnglish;
-import org.languagetool.language.BritishEnglish;
-import org.languagetool.rules.Rule;
 import org.languagetool.rules.RuleMatch;
 
-import java.io.*;
-        import java.net.*;
-import java.util.ArrayList;
-import java.util.List;
 import javax.net.ssl.HttpsURLConnection;
+import java.io.BufferedReader;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.util.List;
 
 public class SpellChecker {
 

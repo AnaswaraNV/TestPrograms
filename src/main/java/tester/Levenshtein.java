@@ -1,10 +1,7 @@
-import model.MapObject;
-import org.languagetool.JLanguageTool;
-import org.languagetool.Language;
-import org.languagetool.language.AmericanEnglish;
+package tester;
 
-import java.io.IOException;
-import java.util.ArrayList;
+import model.MapObject;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

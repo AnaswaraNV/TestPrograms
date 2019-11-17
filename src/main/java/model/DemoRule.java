@@ -1,4 +1,4 @@
-//package org.languagetool.rules;
+package model;//package org.languagetool.rules;
 
 import org.languagetool.AnalyzedSentence;
 import org.languagetool.AnalyzedToken;
